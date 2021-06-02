@@ -1,7 +1,5 @@
+import Main from 'components/Main'
+
 export default function Home() {
-  return (
-    <div>
-      <h2>Initial</h2>
-    </div>
-  )
+  return <Main />
 }
