@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "test": "jest"
   },
   "husky": {
     "hooks": {
@@ -24,6 +25,8 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "7.10.1",
+    "@types/jest": "^26.0.23",
     "@types/react": "17.0.8",
     "@typescript-eslint/eslint-plugin": "4.26.0",
     "@typescript-eslint/parser": "4.26.0",
@@ -34,6 +37,7 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "git-commit-msg-linter": "^3.1.0",
     "husky": "4.2.5",
+    "jest": "^27.0.3",
     "lint-staged": "10.2.11",
     "prettier": "2.3.0",
     "typescript": "4.3.2"
